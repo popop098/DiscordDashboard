@@ -1,26 +1,24 @@
 Discord Dashboard with Next.js & Python
 
-# Frontend
+# Backend
+
+## Requirement
+
+- Python 3.8.9
 
 ## Getting Started
 
 - First, Clone this repository
-- Second, Install package
+- Second, Install module
 
 ```
-npm install
-# or
-yarn
+pip install -r requirements.txt
 ```
 
 - Third, Edit file name `.env.example` to `.env`
 - Fourth, Configure `.env`
-- Sixth, Edit file name `config.example.js` to `config.js`
-- Seventh, Configure `config.js`
 - Lastly, Run File
 
 ```
-npm run dev
-# or
-yarn dev
+python main.py
 ```

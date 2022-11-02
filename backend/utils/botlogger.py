@@ -2,7 +2,7 @@ import logging
 logging.basicConfig(
     format='[%(asctime)s] [%(levelname)s] : %(message)s',
     filename="bot.log", 
-    level=logging.DEBUG,
+    level=logging.INFO,
      datefmt='%Y/%d/%m/ %I:%M:%S %p',
 )
 
